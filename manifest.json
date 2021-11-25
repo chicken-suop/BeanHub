@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "short_name": "beanhub",
   "description": "Github? No it's Beanstalk",
-  "permissions": ["activeTab", "storage", "https://github.com/*"],
+  "permissions": ["https://github.com/*"],
   "web_accessible_resources": ["css/*.css"],
   "offline_enabled": true,
   "icons": {
