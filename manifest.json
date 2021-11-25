@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "BeanHub",
+  "version": "1.0.0",
+  "short_name": "beanhub",
+  "description": "Github? No it's Beanstalk",
+  "permissions": ["activeTab", "storage", "https://github.com/*"],
+  "web_accessible_resources": ["css/*.css"],
+  "offline_enabled": true,
+  "icons": {
+    "16": "favicon.png",
+    "32": "favicon.png",
+    "48": "favicon.png",
+    "128": "favicon.png"
+  },
+  "content_scripts": [{
+    "matches": ["https://github.com/*"],
+    "css": ["style.css"]
+  }]
+}
